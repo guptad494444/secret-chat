@@ -1,0 +1,8 @@
+---
+applications:
+- name:     Dhiraj
+  buildpack: nodejs_buildpack
+  command: npm start
+  instances: 1
+  memory: 256MB
+  random-route: true 
